@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pasteleria "Le magnifique"</title>
 </head>
 
 <body>
@@ -13,10 +13,11 @@
         <header>
 
             <nav>
-                <a href="/">Inicio</a> -
-                <a href="/">Nuestros pasteles</a> -
+                <img src="./images/logo.png" alt="" height="150" width="175">
+                <a href="./Index.html">Inicio</a> -
+                <a href="./cakes/indexSelectCake.html">Nuestros pasteles</a> -
                 <a href="/">Nuestros postres</a> -
-                <a href="/">Contacto</a> -
+                <a href="#footerSection">Contacto</a> -
                 <a href="/">Sobre nosotros</a>
             </nav>
 
@@ -31,22 +32,26 @@
             <div>
                 <!-- CAKE OPTIONS DIV -->
                 <div id="card-index" class="card">
-                    <img id="card-img" src="./images/BirthdayCakes.jpg" alt="">
+                    <img id="card-img" src="./images/BirthdayCakes.jpg" alt="" height="350" width="375">
                     <div class="container">
                         <h5>Nuestras tortas</h5>
                         <p> Aqui podrás ver todas nuestras tartas para aniversarios,
                             bodas, cumpleaños o cualquier situacion que requiera una </p>
-                        <button>Click aqui</button>
+                        <a href="./cakes/indexSelectCake.html">
+                            <button>Click aqui</button>
+                        </a>
+                        <br>
                     </div>
                 </div>
 
                 <div id="card-index" class="card">
-                    <img id="card-img" src="./images/Deserts.jpg" alt="">
+                    <img id="card-img" src="./images/Deserts.jpg" alt="" height="350" width="375">
                     <div class="container">
                         <h5>Nuestros postres</h5>
                         <p> Si tienes algún antojo, o deseas encargar uno de nuestros postres para
                             alguna situacion especial </p>
                         <button>Click aqui</button>
+                        <br>
                     </div>
                 </div>
             </div>
@@ -56,11 +61,13 @@
     <hr>
 
     <section>
-        <footer>
-            <p>Author: Franco Pistone Copyright &copy; 2022<br>
-            <p>Contacto: </p>
+        <footer id="footerSection">
+            <h1>Contacto: </h1>
             <a href="mailto:pasteleria@lemagnifique.com">pasteleria@lemagnifique.com</a></p>
             <a href="https://www.instagram.com/adn.riverplatense/">Pasteleria "Le magnifique"</a></p>
+
+            <br>
+            <p>Author: Franco Pistone Copyright &copy; 2022<br>
         </footer>
     </section>
 </body>
