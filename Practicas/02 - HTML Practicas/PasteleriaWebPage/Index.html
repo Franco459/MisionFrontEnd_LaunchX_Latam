@@ -5,32 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="IndexStyle.css">
     <title>Pasteleria "Le magnifique"</title>
 </head>
 
 <body>
-    <section>
-        <header>
+    <!-- NAVBAR SECTION-->
+    <section class="container">
+        <header class="top">
+            <div class="navigation-bar">
+                <div id="navigation-container">
 
-            <nav>
-                <a href="../Index.html">
-                    <img src="./images/logo.png" alt="" height="150" width="175" >
-                </a>
-                <a href="./Index.html">Inicio</a> -
-                <a href="./cakes/indexSelectCake.html">Nuestros pasteles</a> -
-                <a href="#footerSection">Contacto</a> -
-                <a style="margin-left: 85%;" href="./pastelero/ordersIndex.html">Ver como pastelero</a>
-            </nav>
+                    <img src="./images/logo.png" height="160px" width="160px">
 
+                    <ul>
+                        <li><a href="./Index.html">Inicio</a></li>
+                        <li><a href="./cakes/indexSelectCake.html">Nuestros pasteles</a></li>
+                        <li><a href="#footerSection">Contacto</a></li>
+                        <li class="active"><a id="otherview" href="./pastelero/ordersIndex.html">Ver como pastelero</a>
+                        </li>
+                    </ul>
+                </div>
         </header>
     </section>
+<br>
+    <section class="body-section">
 
-    <hr>
-
-    <section>
-
-        <body>
-            <div>
+        <body class="body-container">
+            <div class="container">
                 <!-- CAKE OPTIONS DIV -->
                 <div id="card-index" class="card">
                     <img id="card-img" src="./images/BirthdayCakes.jpg" alt="" height="350" width="375">
@@ -44,7 +46,7 @@
                     </div>
                 </div>
                 <br>
-                
+
             </div>
         </body>
     </section>
@@ -58,9 +60,10 @@
             <a href="https://www.instagram.com/adn.riverplatense/">Pasteleria "Le magnifique"</a></p>
             <p>Direccion: Calle falsa 123, Jujuy, Argentina.</p>
             <p>Telefono: +54 9 0303456</p>
-            <p>Horarios: De Lunes a Viernes 
-                <br> Por la mañana: Desde 09:00 hasta 13:00 
-                <br> Por la tarde: Desde 16:00 hasta 20:00</p>
+            <p>Horarios: De Lunes a Viernes
+                <br> Por la mañana: Desde 09:00 hasta 13:00
+                <br> Por la tarde: Desde 16:00 hasta 20:00
+            </p>
             <br>
         </footer>
     </section>
