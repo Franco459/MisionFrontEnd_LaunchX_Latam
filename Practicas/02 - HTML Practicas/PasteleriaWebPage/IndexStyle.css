@@ -125,9 +125,13 @@ footer:not(title-about-item) {
   color: #a7a7a7;
   font-size: 16px;
 }
-footer * :not(title-about-item){
+/*
+              <div class="row copyright">
+                <div class="footer-menu">*/
+footer * :not(title-about-item) :not(copyright){
   font-family: "Poppins", sans-serif;
-  box-sizing: border-box;
+  box-sizing: content-box;
+  padding: 5px;
   border: none;
   outline: none;
 }
@@ -143,20 +147,36 @@ footer * :not(title-about-item){
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 0 2em;
+  align-items: center;
   min-height: 15em;
 }
-h3 {
+#second-footer-title {
   width: 100%;
-  text-align: left;
+  text-align: center;
   color: white;
   font-size: 1.4em;
   white-space: nowrap;
 }
+#third-footer-title {
+  width: 100%;
+  align-items: flex-start;
+  color: white;
+  font-size: 1.4em;
+  white-space: nowrap;
+}
+#first-footer-title {
+  width: 100%;
+  text-align: start;
+  color: rgb(255, 255, 255);
+  font-size: 1.4em;
+  white-space: nowrap;
+}
+
 #footer-ul {
   list-style: none;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   padding: 0;
   margin: 0;
 }
@@ -224,6 +244,7 @@ h3 {
 /* ~~ social ~~ */
 
 div.social {
+  align-items: flex-start;
   display: flex;
   justify-content: space-around;
   font-size: 2.4em;
@@ -237,14 +258,10 @@ div.social {
 }
 #social-ul{
   margin-top: 0.8em;
-  flex-direction: column;
   padding: 0;
   list-style: none;
   margin: 0;
 }
 #social-ul #social-items:not(:first-child){
   margin-top: 0.8em;
-}
-#social-ul p{
-  color: #0273d6;
 }
