@@ -112,7 +112,139 @@ p{
 }
 
 #a_button:hover {
-  background-color: #000000;
+  background-color: #3d3f41;
   color: #FFFFFF;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+/*FOOTER Elements*/
+footer:not(title-about-item) {
+  background-color: #121315;
+  color: #a7a7a7;
+  font-size: 16px;
+}
+footer * :not(title-about-item){
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.row {
+  padding: 1em 1em;
+}
+.row.primary {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  align-items: stretch;
+}
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  min-height: 15em;
+}
+h3 {
+  width: 100%;
+  text-align: left;
+  color: white;
+  font-size: 1.4em;
+  white-space: nowrap;
+}
+#footer-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+#footer-items:not(:first-child):not(about-item){
+  margin-top: 0.8em;
+}
+#footer-ul #footer-items:not(#title-about-item, about-item) a {
+  color: #a7a7a7;
+  text-decoration: none;
+}
+#footer-ul #footer-items a:hover {
+  color: #71ed2a;
+}
+.about p {
+  text-align: justify;
+  line-height: 2;
+  margin: 0;
+}
+.copyright {
+  padding: 0.3em 1em;
+  background-color: #25262e;
+}
+.footer-menu{
+  float: left;
+    margin-top: 10px;
+}
+.footer-menu a:not(title-about-item, about-item){
+  color: #cfd2d6;
+  padding: 6px;
+
+  text-decoration: none;
+}
+.footer-menu a:hover{
+  color: #27bcda;
+}
+.copyright p {
+  font-size: 0.9em;
+  text-align: right;
+}
+@media screen and (max-width: 1050px) {
+  .row.primary {
+    grid-template-columns: 1fr;
+  }
+
+}
+.secondary-title-footer:not(title-about-item){
+  margin-bottom: 0%;
+  color: #ffffff;
+}
+.primary-title-footer{
+  margin-bottom: 1fr;
+}
+.about-item:not(:first-child){
+  margin-top: -5px;
+  color: white;
+}
+
+#footer-about-items:not(#id-about-item){
+  margin-top: -5px;
+}
+#title-about-item{
+  color: #0273d6 !important;
+}
+
+/* ~~ social ~~ */
+
+div.social {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.4em;
+  flex-direction: row;
+  margin-top: 0.5em;
+}
+#social-ul #icon{
+  color: #ea0a76;
+  size: 15px;
+  text-decoration: none;
+}
+#social-ul{
+  margin-top: 0.8em;
+  flex-direction: column;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+#social-ul #social-items:not(:first-child){
+  margin-top: 0.8em;
+}
+#social-ul p{
+  color: #0273d6;
 }
