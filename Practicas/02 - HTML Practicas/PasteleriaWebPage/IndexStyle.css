@@ -19,7 +19,7 @@ body {
   }
   
   .navigation-bar {
-    background-color: #C1C9BD;
+    background-color: #c9d1d8;
     height: 230px;
     width: 100%;
   }
@@ -30,7 +30,7 @@ body {
     text-align: center;
   }
   
-  .navigation-bar li {
+  .navigation-bar .navbar-item  {
     list-style-type: none;
     padding: 10px;
     height: 24px;
@@ -39,7 +39,7 @@ body {
     display: inline;
   }
   
-  .navigation-bar li a {
+  .navigation-bar .navbar-item a {
     color: black;
     font-size: 16px;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -53,7 +53,7 @@ body {
     float: right;
   }
   
-  li a:hover {
+  .navbar-item a:hover {
     background-color: #000000;
     color: #FFFFFF;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
@@ -62,7 +62,7 @@ body {
     float: right;
   }
   
-  li #otherview:hover {
+  .navbar-item #otherview:hover {
     background-color: #000000;
     color: #FFFFFF;
   }
@@ -100,13 +100,19 @@ p{
 #a_button{
     background-color: #3fb8bf;
     border: none;
-    color: white;
+    color: black;
     padding: 15px 32px;
     text-align: center;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     border-radius: 4px;
-    top: 50%;
-    left: 50%;
+}
+
+#a_button:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
