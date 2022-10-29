@@ -131,7 +131,7 @@ span{
 }
 
 .footer-distributed{
-	background: #666;
+	background: #C9D1D8;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
@@ -153,22 +153,12 @@ span{
 	width: 40%;
 }
 
-/* The company logo */
-
-.footer-distributed h3{
-	color:  #ffffff;
-	font: normal 36px "Trebuchet MS", Arial, Helvetica, sans-serif;
-	margin: 0;
-}
-
-.footer-distributed h3 span{
-	color:  lightseagreen;
-}
 
 /* Footer links */
 
 .footer-distributed .footer-links{
-	color:  #ffffff;
+	color: #20B2AA;
+    font: bold;
 	margin: 20px 0 12px;
 	padding: 0;
 }
@@ -182,7 +172,8 @@ span{
 }
 
 .footer-distributed .footer-company-name{
-	color:  #222;
+	color:  black;
+    font: bold;
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
@@ -195,8 +186,9 @@ span{
 }
 
 .footer-distributed .footer-center i{
-	background-color:  #33383b;
-	color: #ffffff;
+	background-color:  #33383B;
+	color: #FFFFFF;
+    font: bold;
 	font-size: 25px;
 	width: 38px;
 	height: 38px;
@@ -214,7 +206,8 @@ span{
 
 .footer-distributed .footer-center p{
 	display: inline-block;
-	color: #ffffff;
+	color: black;
+    font: bold;
   font-weight:400;
 	vertical-align: middle;
 	margin:0;
@@ -228,8 +221,9 @@ span{
 }
 
 .footer-distributed .footer-center p a{
-	color:  lightseagreen;
-	text-decoration: none;;
+    font: bold;
+	color:  #20B2AA;
+	text-decoration: none;
 }
 
 .footer-distributed .footer-links a:before {
@@ -237,7 +231,8 @@ span{
   font-weight:300;
   font-size: 20px;
   left: 0;
-  color: #fff;
+  color: black;
+  font: bold;
   display: inline-block;
   padding-right: 5px;
 }
@@ -254,7 +249,8 @@ span{
 
 .footer-distributed .footer-company-about{
 	line-height: 20px;
-	color:  #92999f;
+	color:  black;
+    font: bold;
 	font-size: 13px;
 	font-weight: normal;
 	margin: 0;
@@ -262,7 +258,7 @@ span{
 
 .footer-distributed .footer-company-about span{
 	display: block;
-	color:  #ffffff;
+	color:  #20B2AA;
 	font-size: 14px;
 	font-weight: bold;
 	margin-bottom: 20px;
@@ -282,14 +278,13 @@ span{
 
 	font-size: 20px;
 	color: #ffffff;
+    font: bold;
 	text-align: center;
 	line-height: 35px;
 
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
-
-/* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
 
