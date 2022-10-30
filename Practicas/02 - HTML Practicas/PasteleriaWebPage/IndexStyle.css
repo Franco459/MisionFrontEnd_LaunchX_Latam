@@ -1,104 +1,6 @@
-.navbar{
-    border-bottom-style: double;
-}
 
-body {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .logo {
-    float: left;
-  }
-  /* ~~ Top Navigation Bar ~~ */
-  
-  #navigation-container {
-    width: 1200px auto;
-    margin: 0 auto;
-    height: 150px;
-  }
-  
-  .navigation-bar {
-    background-color: #c9d1d8;
-    height: 230px;
-    width: 100%;
-  }
-  
-  .navigation-bar ul {
-    padding: 0px;
-    margin: 0px;
-    text-align: center;
-  }
-  
-  .navigation-bar .navbar-item  {
-    list-style-type: none;
-    padding: 10px;
-    height: 24px;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    display: inline;
-  }
-  
-  .navigation-bar .navbar-item a {
-    color: black;
-    font-size: 16px;
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    line-height: 70px;
-    padding: 10px 25px;
-    opacity: 0.7;
-  }
-  
-  #menu {
-    float: right;
-  }
-  
-  .navbar-item a:hover {
-    background-color: #000000;
-    color: #FFFFFF;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
-  .active {
-    float: right;
-  }
-  
-  .navbar-item #otherview:hover {
-    background-color: #000000;
-    color: #FFFFFF;
-  }
-  
-  #otherview{
-    background-color: #F85E97;
-    color: white;
-    font-size: 16px;
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    line-height: 155px;
-    padding: 5px 35px auto;
-    opacity: 0.7;
-  }
-
-  .body-section{
-    margin: 0% auto;
-  }
-#card-index{
-    width: 100% auto;
-}
-#card-img{
-    float: inline-start;
-}
-h2{
-    font-size: 36px;
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-}
-p{
-    text-align: center;
-    font-size: 16px;
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-
-}
 #a_button{
-    background-color: #3fb8bf;
+  background-color: #3fb8bf;
     border: none;
     color: black;
     padding: 15px 32px;
@@ -109,13 +11,91 @@ p{
     display: inline-block;
     font-size: 16px;
     border-radius: 4px;
+    margin-bottom: 15px;
 }
-
-#a_button:hover {
+#a_button:hover{
   background-color: #3d3f41;
   color: #FFFFFF;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+
+  
+  .logo {
+    float: left;
+  }
+  .navbar {
+    border-bottom-style: double;
+}
+
+/* ~~ Top Navigation Bar ~~ */
+
+#navigation-container {
+    width: 1200px auto;
+    margin: 0 auto;
+    height: 150px;
+}
+
+.navigation-bar {
+    background-color: #414243;
+    height: 230px;
+    width: 100%;
+}
+
+.navigation-bar ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.navigation-bar .navbar-item {
+    list-style-type: none;
+    padding: 10px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+}
+
+.navigation-bar .navbar-item a {
+    color: white;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 10px 25px;
+    opacity: 0.7;
+}
+
+#menu {
+    float: right;
+}
+
+.navbar-item a:hover {
+    background-color: #20B2AA;
+    color: #FFFFFF;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.active {
+    float: right;
+}
+
+.navbar-item #otherview:hover {
+    background-color: #20B2AA;
+    color: #FFFFFF;
+}
+
+#otherview {
+    background-color: #F85E97;
+    color: white;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 155px;
+    padding: 5px 35px auto;
+    opacity: 0.7;
+}
+
 
 
 
@@ -123,186 +103,218 @@ p{
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
 * {
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
-span{
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+span {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
-.footer-distributed{
-	background: #C9D1D8;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-	box-sizing: border-box;
-	width: 100%;
-	text-align: left;
-	font: bold 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
-	padding: 55px 50px;
+.footer-distributed {
+    background: #414243;
+    box-shadow: 0 1px 1px 0 white;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 55px 50px;
 }
 
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
-.footer-distributed .footer-right{
-	display: inline-block;
-	vertical-align: top;
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
 }
 
 /* Footer left */
 
-.footer-distributed .footer-left{
-	width: 40%;
+.footer-distributed .footer-left {
+    width: 40%;
 }
 
 
 /* Footer links */
 
-.footer-distributed .footer-links{
-	color: #20B2AA;
+.footer-distributed .footer-links {
+    color: #20B2AA;
     font: bold;
-	margin: 20px 0 12px;
-	padding: 0;
+    margin: 20px 0 12px;
+    padding: 0;
 }
 
-.footer-distributed .footer-links a{
-	display:inline-block;
-	line-height: 1.8;
-  font-weight:400;
-	text-decoration: none;
-	color:  inherit;
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
 }
 
-.footer-distributed .footer-company-name{
-	color:  black;
+.footer-distributed .footer-company-name {
+    color: white;
     font: bold;
-	font-size: 14px;
-	font-weight: normal;
-	margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
 }
 
 /* Footer Center */
 
-.footer-distributed .footer-center{
-	width: 35%;
+.footer-distributed .footer-center {
+    width: 35%;
 }
 
-.footer-distributed .footer-center i{
-	background-color:  #33383B;
-	color: #FFFFFF;
+.footer-distributed .footer-center i {
+    background-color: #20B2AA;
+    color: #FFFFFF;
     font: bold;
-	font-size: 25px;
-	width: 38px;
-	height: 38px;
-	border-radius: 50%;
-	text-align: center;
-	line-height: 42px;
-	margin: 10px 15px;
-	vertical-align: middle;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
 }
 
-.footer-distributed .footer-center i.fa-envelope{
-	font-size: 17px;
-	line-height: 38px;
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
 }
 
-.footer-distributed .footer-center p{
-	display: inline-block;
-	color: black;
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: white;
     font: bold;
-  font-weight:400;
-	vertical-align: middle;
-	margin:0;
+    font-weight: 400;
+    vertical-align: middle;
+    margin: 0;
 }
 
-.footer-distributed .footer-center p span{
-	display:block;
-	font-weight: normal;
-	font-size:14px;
-	line-height:2;
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
 }
 
-.footer-distributed .footer-center p a{
+.footer-distributed .footer-center p a {
     font: bold;
-	color:  #20B2AA;
-	text-decoration: none;
+    color: #20B2AA;
+    text-decoration: none;
 }
 
 .footer-distributed .footer-links a:before {
-  content: "|";
-  font-weight:300;
-  font-size: 20px;
-  left: 0;
-  color: black;
-  font: bold;
-  display: inline-block;
-  padding-right: 5px;
+    content: "|";
+    font-weight: 300;
+    font-size: 20px;
+    left: 0;
+    color: white;
+    font: bold;
+    display: inline-block;
+    padding-right: 5px;
 }
 
 .footer-distributed .footer-links .link-1:before {
-  content: none;
+    content: none;
 }
 
 /* Footer Right */
 
-.footer-distributed .footer-right{
-	width: 20%;
+.footer-distributed .footer-right {
+    width: 20%;
 }
 
-.footer-distributed .footer-company-about{
-	line-height: 20px;
-	color:  black;
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: white;
     font: bold;
-	font-size: 13px;
-	font-weight: normal;
-	margin: 0;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
 }
 
-.footer-distributed .footer-company-about span{
-	display: block;
-	color:  #20B2AA;
-	font-size: 14px;
-	font-weight: bold;
-	margin-bottom: 20px;
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #20B2AA;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
-.footer-distributed .footer-icons{
-	margin-top: 25px;
+.footer-distributed .footer-icons {
+    margin-top: 25px;
 }
 
-.footer-distributed .footer-icons a{
-	display: inline-block;
-	width: 35px;
-	height: 35px;
-	cursor: pointer;
-	background-color:  #33383b;
-	border-radius: 2px;
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #20B2AA;
+    border-radius: 2px;
 
-	font-size: 20px;
-	color: #ffffff;
+    font-size: 20px;
+    color: #ffffff;
     font: bold;
-	text-align: center;
-	line-height: 35px;
+    text-align: center;
+    line-height: 35px;
 
-	margin-right: 3px;
-	margin-bottom: 5px;
+    margin-right: 3px;
+    margin-bottom: 5px;
 }
 
 @media (max-width: 880px) {
 
-	.footer-distributed{
-		font: bold 14px sans-serif;
-	}
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
 
-	.footer-distributed .footer-left,
-	.footer-distributed .footer-center,
-	.footer-distributed .footer-right{
-		display: block;
-		width: 100%;
-		margin-bottom: 40px;
-		text-align: center;
-	}
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
 
-	.footer-distributed .footer-center i{
-		margin-left: 0;
-	}
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
 
+}
+
+/*BODY*/
+* {
+    box-sizing: border-box;
+}
+.card {
+    text-align: center;
+  }
+.column {
+    float: left;
+    width: 25%;
+    margin-left: 6%;
+}
+
+/* Clear floats after the columns */
+.row {
+    margin: 0 -5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 25%;
+        display: block;
+        margin-bottom: 20px;
+    }
 }
