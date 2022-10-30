@@ -83,8 +83,8 @@ span {
 }
 
 .footer-distributed {
-    background: #C9D1D8;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    background: #414243;
+    box-shadow: 0 1px 1px 0 white;
     box-sizing: border-box;
     width: 100%;
     text-align: left;
@@ -124,7 +124,7 @@ span {
 }
 
 .footer-distributed .footer-company-name {
-    color: black;
+    color: white;
     font: bold;
     font-size: 14px;
     font-weight: normal;
@@ -158,7 +158,7 @@ span {
 
 .footer-distributed .footer-center p {
     display: inline-block;
-    color: black;
+    color: white;
     font: bold;
     font-weight: 400;
     vertical-align: middle;
@@ -201,7 +201,7 @@ span {
 
 .footer-distributed .footer-company-about {
     line-height: 20px;
-    color: black;
+    color: white;
     font: bold;
     font-size: 13px;
     font-weight: normal;
@@ -275,7 +275,9 @@ span {
 }
 
 /* Clear floats after the columns */
-.row {margin: 0 -5px;}
+.row {
+    margin: 0 -5px;
+}
 
 .row:after {
     content: "";
@@ -285,7 +287,7 @@ span {
 
 @media screen and (max-width: 600px) {
     .column {
-        width: 100%;
+        width: 25%;
         display: block;
         margin-bottom: 20px;
     }
@@ -294,3 +296,54 @@ span {
 /*BODY elements*/
 
 /*CARD elements*/
+.btn{
+    background-color: #3fb8bf;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.btn:hover{
+    background-color: #3d3f41;
+    color: #FFFFFF;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/*FORM elements*/
+[class^="webform-component"] {
+    display: inline-block;
+    margin: 1.5%;
+  }
+  .webform-component {
+    width: 30%;
+  }
+  .webform-component--resource-format {
+    width: 60%;
+  }
+  label {
+    color: #3fb8bf; 
+    background-color: white;
+    font-variant: small-caps;
+    display: block;
+    padding-left: 1em;
+  }
+  input, select {
+    border: 1px #3fb8bf solid;
+    border-radius: 10px;
+    background: white;
+    width: 96%;
+    height: 3em;
+    color: #3fb8bf;
+  }
+  #form3118{
+     width: 50%;
+  }
+  ::placeholder{
+    color: #3fb8bf;
+  }

@@ -25,7 +25,7 @@
                     <li class="active navbar-item"><a id="otherview" href="./pastelero/ordersIndex.html">Ver como
                             pastelero</a></li>
                     <ul>
-                        <li class="navbar-item"><a href="./Index.html">Inicio</a></li>
+                        <li class="navbar-item"><a href="../Index.html">Inicio</a></li>
                         <li class="navbar-item"><a href="./cakes/indexSelectCake.html">Nuestros pasteles</a></li>
                         <li class="navbar-item"><a href="#footer-section">Contacto</a></li>
                     </ul>
@@ -42,7 +42,7 @@
         <!-- BIZCOCHUELO SECTION -->
         <section id="bizcochuelosSection">
             <div class="row bizcochuelosDiv">
-                <h2> Tipos de bizcochuelo </h2>
+                <h1 style="text-align: center;"> Tipos de bizcochuelo </h1>
 
                 <div class="column first-bizcochuelo">
                     <div class="card">
@@ -53,14 +53,13 @@
                            <h1 class="food">
                               Bizcochuelo de vainilla
                            </h1>
-                           <i id="icon" class="fa fa-money"> $1500</i>
+                           <i id="icon" class="fa fa-money" style="font-size: 25px;"> $1500</i>
                            
                            <p class="info">Uno de los clasicos sabores para pasteles de cumpleaños.<br>Pulsa para avanzar a la siguiente seccion.</p>
                         </div>
                         <a href="#" onclick="window.location.href='#rellenosSection'" class="btn">¡Click aqui!</a>
                      </div>
                 </div>
-                <br>
                 <div class="column first-bizcochuelo">
                     <div class="card">
                         <div class="header">
@@ -70,14 +69,13 @@
                            <h1 class="food">
                               Bizcochuelo de vainilla
                            </h1>
-                           <i id="icon" class="fa fa-money"> $1500</i>
+                           <i id="icon" class="fa fa-money" style="font-size: 25px;"> $1500</i>
                            
                            <p class="info">Uno de los clasicos sabores para pasteles de cumpleaños.<br>Pulsa para avanzar a la siguiente seccion.</p>
                         </div>
                         <a href="#" onclick="window.location.href='#rellenosSection'" class="btn">¡Click aqui!</a>
                      </div>
                 </div>
-                <br>
                 <div class="column first-bizcochuelo">
                     <div class="card">
                         <div class="header">
@@ -87,7 +85,7 @@
                            <h1 class="food">
                               Bizcochuelo de vainilla
                            </h1>
-                           <i id="icon" class="fa fa-money"> $1500</i>
+                           <i id="icon" class="fa fa-money" style="font-size: 25px;"> $1500</i>
                            
                            <p class="info">Uno de los clasicos sabores para pasteles de cumpleaños.<br>Pulsa para avanzar a la siguiente seccion.</p>
                         </div>
@@ -98,12 +96,10 @@
         </section>
         <!--END BIZCOCHUELO SECTION -->
         <br>
-
         <!-- RELLENOS SECTION -->
-        <br>
         <section id="rellenosSection">
             <div class="row rellenosDiv">
-                <h2> Rellenos para el bizcochuelo </h2>
+                <h1 style="text-align: center;"> Rellenos para el bizcochuelo </h1>
                 <div class="column card">
                     <img src="./images/chocolate-mousse-g207fa32b6_1920.jpg" alt="" height="300" width="300">
                     <div class="info">
@@ -114,7 +110,6 @@
                         <button onclick="window.location.href='#adornosSection'">Click aqui</button>
                     </div>
                 </div>
-                <br>
                 <div class="column card">
                     <img src="./images/pexels-drake-nicolls-8939412.jpg	" alt="" height="300" width="300">
                     <div class="info">
@@ -125,7 +120,6 @@
                         <button onclick="window.location.href='#adornosSection'">Click aqui</button>
                     </div>
                 </div>
-                <br>
                 <div class="column card">
                     <img src="./images/nougat-g709689129_1920.jpg" alt="" height="300" width="300">
                     <div class="info">
@@ -139,12 +133,13 @@
             </div>
         </section>
         <!--END RELLENOS SECTION -->
+
         <br>
         <!-- ADORNOS SECTION -->
-        <br>
+
         <section id="adornosSection" >
             <div class="row adornosDiv">
-                <h2> Adornos para el bizcochuelo </h2>
+                <h1 style="text-align: center;"> Adornos para el bizcochuelo </h1>
                 <div class="column card">
                     <img src="./images/happy-mothers-day-gcdeb49e48_1920.jpg" alt="" height="300" width="300">
                     <div class="info">
@@ -155,7 +150,6 @@
                         <button onclick="window.location.href='#formularioCake'">Click aqui</button>
                     </div>
                 </div>
-                <br>
                 <div class="column card">
                     <img src="./images/cake-gfee0fc738_1920.jpg" alt="" height="300" width="300">
                     <div class="info">
@@ -166,7 +160,6 @@
                         <button onclick="window.location.href='#formularioCake'">Click aqui</button>
                     </div>
                 </div>
-                <br>
                 <div class="column card">
                     <img src="./images/pastry-g06eac55aa_1920.jpg" alt="" height="300" width="300">
                     <div class="info">
@@ -180,95 +173,220 @@
             </div>
         </section>
         <!--END ADORNOS SECTION -->
+
+        <br>
+        <br>
         <br>
         <!-- FORMULARIO SECTION -->
-        <br>
         <section id="formularioCake">
-            <form id="form-cake" action="">
-                <label for="bizcochuelo">Elija sabor de bizcochuelo:</label>
-                <select name="bizcochuelo" id="bizcochuelo">
-                    <option value="none">--Ninguno--</option>
-                    <option value="vainilla">Vainilla ($500)</option>
-                    <option value="chocolate">Chocolate ($750)</option>
-                    <option value="frutilla">Frutilla ($1000)</option>
-                </select>
-                <label for="bizcochuelo1"> elija sabor adicional:</label>
-                <select name="bizcochuelo1" id="bizcochuelo1">
-                    <option value="none">--Ninguno--</option>
-                    <option value="vainilla">Vainilla ($500)</option>
-                    <option value="chocolate">Chocolate ($750)</option>
-                    <option value="frutilla">Frutilla ($1000)</option>
-                </select>
-                <label for="bizcochuelo2"> elija sabor adicional:</label>
-                <select name="bizcochuelo2" id="bizcochuelo2">
-                    <option value="none">--Ninguno--</option>
-                    <option value="vainilla">Vainilla</option>
-                    <option value="chocolate">Chocolate ($750)</option>
-                    <option value="frutilla">Frutilla ($1000)</option>
-                </select>
-                <br>
-                <br>
-                <label for="relleno">Elija sabor de relleno:</label>
-                <select name="relleno" id="relleno">
-                    <option value="none">--Ninguno--</option>
-                    <option value="mousse_de_chocolate">Mousse de chocolate ($500)</option>
-                    <option value="dulce_de_leche">Dulce de leche ($200)</option>
-                    <option value="nutella">Nutella ($600)</option>
-                </select>
-                <label for="relleno1"> elija relleno adicional:</label>
-                <select name="relleno1" id="relleno1">
-                    <option value="none">--Ninguno--</option>
-                    <option value="mousse_de_chocolate">Mousse de chocolate ($500)</option>
-                    <option value="dulce_de_leche">Dulce de leche ($200)</option>
-                    <option value="nutella">Nutella ($600)</option>
-                </select>
-                <label for="relleno2"> elija relleno adicional:</label>
-                <select name="relleno2" id="relleno2">
-                    <option value="none">--Ninguno--</option>
-                    <option value="mousse_de_chocolate">Mousse de chocolate ($500)</option>
-                    <option value="dulce_de_leche">Dulce de leche ($200)</option>
-                    <option value="nutella">Nutella ($600)</option>
-                </select>
-                <br>
-                <br>
-                <label for="adornos">Elija adorno:</label>
-                <select name="adornos" id="adornos">
-                    <option value="none">--Ninguno--</option>
-                    <option value="frutillas">Frutillas ($100)</option>
-                    <option value="fondant">Fondant ($150)</option>
-                    <option value="merengue">Merengue ($75)</option>
-                </select>
-                <label for="adornos1">elija adorno adicional:</label>
-                <select name="adornos1" id="adornos1">
-                    <option value="none">--Ninguno--</option>
-                    <option value="frutillas">Frutillas ($100)</option>
-                    <option value="fondant">Fondant ($150)</option>
-                    <option value="merengue">Merengue ($75)</option>
-                </select>
-                <label for="adornos2">elija adorno adicional:</label>
-                <select name="adornos2" id="adornos2">
-                    <option value="none">--Ninguno--</option>
-                    <option value="frutillas">Frutillas ($100)</option>
-                    <option value="fondant">Fondant ($150)</option>
-                    <option value="merengue">Merengue ($75)</option>
-                </select>
-                <br>
-                <br>
-                <label for="nombre">Nombre completo:</label>
-                <input type="text" name="nombre" id="nombre" placeholder="Nombre Apellido"> <br><br>
-
-                <label for="telefono">Telefono:</label>
-                <input type="tel" name="telefono" id="telefono" placeholder="+549XXXXXXXX"><br><br>
-
-                <label for="mail">Correo electronico:</label>
-                <input type="email" name="mail" id="mail" placeholder="example@mail.com"><br><br>
-
-                <label for="descripcion">Informacion adicional del pedido:</label>
-                <input type="text" name="descripcion" id="descripcion" placeholder="Escriba aqui..."> <br><br>
-
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Vaciar todo">
-            </form>
+            <h1 style="text-align: center;"> HAGA SU PEDIDO: </h1>
+            <center>
+                <form method="post" name="Form1" action="" onSubmit="return validateForm();" onchange="showForm();" id="form3118" >
+               
+             
+                      <div class="webform-component first-name" >
+                         <label for="sabor1">
+                           Elija sabor:
+                         </label>
+                         <select id="sabor1" name="Vacio">
+                           <option value="none" selected="selected" >
+                             --Ninguno--
+                           </option>
+                           <option value="Vainilla" >
+                             Vainilla ($500)
+                           </option>
+                           <option value="Chocolate" >
+                             Chocolate ($750)
+                           </option>
+                           <option value="Frutilla" >
+                             Frutilla ($1000)
+                           </option>
+                         </select>  
+                     </div>
+             
+                       <div class="webform-component last-name" >
+                         <label for="sabor2">
+                           Elija sabor:
+                         </label>
+                         <select id="sabor2" name="Vacio">
+                           <option value="none" selected="selected" >
+                             --Ninguno--
+                           </option>
+                           <option value="Vainilla" >
+                             Vainilla ($500)
+                           </option>
+                           <option value="Chocolate" >
+                             Chocolate ($750)
+                           </option>
+                           <option value="Frutilla" >
+                             Frutilla ($1000)
+                           </option>
+                         </select>   
+                     </div>
+                 
+             
+                     <div class="webform-component school" >   
+                         <label for="sabor3">
+                           Elija sabor:
+                         </label>
+                         <select id="sabor3" name="Vacio">
+                           <option value="none" selected="selected" >
+                             --Ninguno--
+                           </option>
+                           <option value="Vainilla" >
+                             Vainilla ($500)
+                           </option>
+                           <option value="Chocolate" >
+                             Chocolate ($750)
+                           </option>
+                           <option value="Frutilla" >
+                             Frutilla ($1000)
+                           </option>
+                         </select>  
+                     </div>
+             
+                      <div class="webform-component role">    
+                         <label for="relleno1">
+                           Elija sabor de relleno:
+                         </label>
+                         <select id="sabor3" name="role">
+                           <option value="none" selected="selected" >
+                             --Ninguno--
+                           </option>
+                           <option value="Mousse_chocolate" >
+                             Mousse de chocolate ($500)
+                           </option>
+                           <option value="Dulce_de_leche" >
+                             Dulce de leche ($200)
+                           </option>
+                           <option value="Nutella" >
+                             Nutella ($600)
+                           </option>
+                         </select>  
+                      </div>       
+             
+                     <div class="webform-component  email-address" >          
+                         <label for="relleno1">
+                           Elija sabor de relleno:
+                         </label>
+                         <select id="sabor3" name="role">
+                           <option value="none" selected="selected" >
+                             --Ninguno--
+                           </option>
+                           <option value="Mousse_chocolate" >
+                             Mousse de chocolate ($500)
+                           </option>
+                           <option value="Dulce_de_leche" >
+                             Dulce de leche ($200)
+                           </option>
+                           <option value="Nutella" >
+                             Nutella ($600)
+                           </option>
+                         </select>  
+                     </div> 
+             
+             
+                      <div class="webform-component  last-name" >
+                         <label for="relleno1">
+                           Elija sabor de relleno:
+                         </label>
+                         <select id="sabor3" name="role">
+                           <option value="none" selected="selected" >
+                             --Ninguno--
+                           </option>
+                           <option value="Mousse_chocolate" >
+                             Mousse de chocolate ($500)
+                           </option>
+                           <option value="Dulce_de_leche" >
+                             Dulce de leche ($200)
+                           </option>
+                           <option value="Nutella" >
+                             Nutella ($600)
+                           </option>
+                         </select>  
+                     </div>
+             <div class="webform-component first-name" >
+                         <label for="sabor1">
+                          Elija adorno:
+                         </label>
+                         <select id="sabor1" name="Vacio">
+                           <option value="none" selected="selected" >
+                             --Ninguno--
+                           </option>
+                           <option value="Vainilla" >
+                             Frutillas ($100)
+                           </option>
+                           <option value="Chocolate" >
+                             Fondant ($150)
+                           </option>
+                           <option value="Frutilla" >
+                             Merengue ($75)
+                           </option>
+                         </select>  
+                     </div>
+             
+                       <div class="webform-component first-name" >
+                         <label for="sabor1">
+                          Elija adorno:
+                         </label>
+                         <select id="sabor1" name="Vacio">
+                           <option value="none" selected="selected" >
+                             --Ninguno--
+                           </option>
+                           <option value="Vainilla" >
+                             Frutillas ($100)
+                           </option>
+                           <option value="Chocolate" >
+                             Fondant ($150)
+                           </option>
+                           <option value="Frutilla" >
+                             Merengue ($75)
+                           </option>
+                         </select>  
+                     </div>
+                 
+             
+                     <div class="webform-component first-name" >
+                         <label for="sabor1">
+                          Elija adorno:
+                         </label>
+                         <select id="sabor1" name="Vacio">
+                           <option value="none" selected="selected" >
+                             --Ninguno--
+                           </option>
+                           <option value="Vainilla" >
+                             Frutillas ($100)
+                           </option>
+                           <option value="Chocolate" >
+                             Fondant ($150)
+                           </option>
+                           <option value="Frutilla" >
+                             Merengue ($75)
+                           </option>
+                         </select>  
+                     </div>
+                      <div class="webform-component  email-address" >          
+                         <label for="name" >
+                           Nombre completo*
+                         </label>
+                         <input id="name" name="name" type="text" value="" placeholder="Nombres Apellido" />
+                     </div> 
+                   <div class="webform-component  email-address" >          
+                         <label for="email" >
+                           Email*
+                         </label>
+                         <input id="email" name="email" type="mail" placeholder="example@mail.com" value="" />
+                     </div> 
+                   <div class="webform-component  email-address" >          
+                         <label for="telefono" >
+                           Telefono*
+                         </label>
+                         <input id="telefono" name="telefono" type="tel" value="" placeholder="+549XXXXXXXX"/>
+                     </div> 
+                  <input type="submit" value="Submit"  />
+                       
+               </form>
+             </center>
         </section>
         <!--END FORMULARIO SECTION -->
     </body>
