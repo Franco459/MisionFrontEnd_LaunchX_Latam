@@ -6,116 +6,176 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pasteleria "Le magnifique"</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js"
+        integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19"
+        crossorigin="anonymous"></script>
 </head>
-<style>
-    table {
-        font-family: arial, sans-serif;
-        border-collapse: collapse;
-        width: 100%;
-    }
-
-    td,
-    th {
-        border: 1px solid #dddddd;
-        text-align: center;
-        padding: 8px;
-    }
-
-    tr:nth-child(even) {
-        background-color: #dddddd;
-    }
-</style>
 
 <body>
+    <!-- NAVBAR SECTION -->
     <section>
-        <header>
+        <header class="top">
+            <div class="navigation-bar">
+                <div id="navigation-container">
 
-            <nav>
-                <a href="../Index.html">
-                    <img src="./images/logo.png" alt="" height="150" width="175" >
-                </a>
-                <a href="../Index.html" type="button">Inicio</a> -
-                <a href="./ordersIndex.html">Ordenes recibidas</a> 
-                <a style="margin-left: 85%" href="../Index.html">Ver como cliente</a>
-            </nav>
+                    <img src="./images/logo.png" height="160px" width="160px">
 
+                    <li class="active navbar-item"><a id="otherview" href="../Index.html">Ver como
+                            cliente</a></li>
+                    <ul>
+                        <li class="navbar-item"><a href="#">Ordenes</a></li>
+                        <li class="navbar-item"><a href="./inventoryIndex.html">Inventario</a></li>
+                    </ul>
+                </div>
+            </div>
         </header>
     </section>
+    <!--END NAVBAR SECTION -->
 
-    <hr>
+    <!-- ORDERS SECTION -->
 
     <body>
 
-        <h2>ORDENES </h2>
-
-        <table>
-            <tr>
-                <th>ID</th>
-                <th>Nombre</th>
-                <th>Informacion de contacto cliente</th>
-                <th>Sabor/es elegido/s para bizcochuelo</th>
-                <th>Relleno/s elegido/s para bizcochuelo</th>
-                <th>Decoracion/es elegida/s para bizcochuelo</th>
-                <th>Informacion adicional indicada por el usuario</th>
-                <th>Estado orden</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Franco Pistone</td>
-                <td>+5493880303456 <br>
-                    mailfalso@123.com
-                </td>
-                <td>Vainilla + Chocolate</td>
-                <td>Nutella</td>
-                <td>Merengue</td>
-                <td>Merengue color blanco, decoracion para niño</td>
-                <td>En proceso</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Gabriel Copa</td>
-                <td>+5490110303456<br>
-                    mailnoreal@hotmailnt.com
-                </td>
-                <td>Frutilla</td>
-                <td>Dulce de leche</td>
-                <td>Fondant</td>
-                <td>Decoracion para mujer, color favorito morado</td>
-                <td>Pendiente</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Gabriel Pisti</td>
-                <td>+5493810303456<br>
-                    mailrealnt@3gmail3.com
-                </td>
-                <td>Vainilla + Frutilla</td>
-                <td>Mousse de chocolate + Dulce de Leche</td>
-                <td>Frutilla + Merengue</td>
-                <td>Decoracion para hombre, color favorito verde, </td>
-                <td>Pendiente</td>
-            </tr>
-        </table>
+        <h1 style="text-align: center; margin-top: 3%; margin-bottom: 4%;">ORDENES </h1>
+        <div style="overflow-x:auto">
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Informacion de contacto cliente</th>
+                    <th>Sabor/es elegido/s para bizcochuelo</th>
+                    <th>Relleno/s elegido/s para bizcochuelo</th>
+                    <th>Decoracion/es elegida/s para bizcochuelo</th>
+                    <th>Informacion adicional indicada por el usuario</th>
+                    <th>Estado orden</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Franco Pistone</td>
+                    <td>+5493880303456 <br>
+                        mailfalso@123.com
+                    </td>
+                    <td>Vainilla + Chocolate</td>
+                    <td>Nutella</td>
+                    <td>Merengue</td>
+                    <td>Merengue color blanco, decoracion para niño</td>
+                    <td>En proceso</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Gabriel Copa</td>
+                    <td>+5490110303456<br>
+                        mailnoreal@hotmailnt.com
+                    </td>
+                    <td>Frutilla</td>
+                    <td>Dulce de leche</td>
+                    <td>Fondant</td>
+                    <td>Decoracion para mujer, color favorito morado</td>
+                    <td>Pendiente</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Gabriel Pisti</td>
+                    <td>+5493810303456<br>
+                        mailrealnt@3gmail3.com
+                    </td>
+                    <td>Vainilla + Frutilla</td>
+                    <td>Mousse de chocolate + Dulce de Leche</td>
+                    <td>Frutilla + Merengue</td>
+                    <td>Decoracion para hombre, color favorito verde, </td>
+                    <td>Pendiente</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Alvaro Tolaba</td>
+                    <td>+5493810303456<br>
+                        mailrealnot@4gmail9.com
+                    </td>
+                    <td>Vainilla + Frutilla + chocolate</td>
+                    <td>Mousse de chocolate + Nutella</td>
+                    <td>Frutilla</td>
+                    <td>Decoracion para mujer, color favorito celeste, frase escrita "Feliz cumpleaños"</td>
+                    <td>Pendiente</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Guillermo Copa</td>
+                    <td>+5493810303456<br>
+                        notrealmail@3gmail3.com
+                    </td>
+                    <td>Vainilla</td>
+                    <td>Mousse de chocolate + Dulce de Leche + Nutella</td>
+                    <td>Merengue</td>
+                    <td>Decoracion para niño, color favorito naranja. </td>
+                    <td>Pendiente</td>
+                </tr>
+            </table>
+        </div>
 
     </body>
 
+    <!--END ORDERS SECTION -->
     <br>
-    <hr>
     <br>
-    
-    <section>
-        <footer id="footerSection">
-            <h1>Contacto: </h1>
-            <a href="mailto:pasteleria@lemagnifique.com">pasteleria@lemagnifique.com</a></p>
-            <a href="https://www.instagram.com/adn.riverplatense/">Pasteleria "Le magnifique"</a></p>
-            <p>Direccion: Calle falsa 123, Jujuy, Argentina.</p>
-            <p>Telefono: +54 9 0303456</p>
-            <p>Horarios: De Lunes a Viernes
-                <br> Por la mañana: Desde 09:00 hasta 13:00
-                <br> Por la tarde: Desde 16:00 hasta 20:00
-            </p>
-            <br>
+
+    <!--FOOTER SECTION-->
+    <section id="footer-section">
+        <footer class="footer-distributed">
+
+            <div class="footer-left">
+
+                <p class="footer-links">
+                    <a href="./Index.html" class="link-1">Inicio</a>
+
+                    <a href="./cakes/indexSelectCake.html">Nuestros pasteles</a>
+
+                    <a href="#footer-section">Contacto</a>
+                </p>
+
+                <p class="footer-company-name">Franco Pistone © 2022</p>
+            </div>
+
+            <div class="footer-center">
+
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>Calle calle N° 123</span> Jujuy, Argentina</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <p>+54938850303459</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:lemagnifique@pasteleria.com"
+                            style="color: white;">lemagnifique@pasteleria.com</a></p>
+                </div>
+
+            </div>
+
+            <div class="footer-right">
+
+                <p class="footer-company-about">
+                    <span>Sobre nosotros:</span>
+                    Mas de 10 años en el negocio de la pasteleria con todos nuestros clientes satisfechos.
+                </p>
+
+                <div class="footer-icons">
+
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+
+                </div>
+
+            </div>
+
         </footer>
     </section>
+    <!--END FOOTER SECTION-->
 
 </html>
