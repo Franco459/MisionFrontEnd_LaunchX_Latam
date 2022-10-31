@@ -324,6 +324,13 @@ span {
   .submitbtn{
       width: 97%;
   }
+  .submitbtn:hover{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font: bold;
+    color: white;
+    background-color: #F85E97;
+    border-color: #F85E97;
+}
 
   .webform-component {
     width: 30%;
