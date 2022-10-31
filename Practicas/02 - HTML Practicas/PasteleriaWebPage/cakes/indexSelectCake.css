@@ -354,7 +354,7 @@ span {
      width: 50%;
   }
   ::placeholder{
-     color: #414243;
+     color: lightgrey;
   }
   textarea {
     resize: none;
